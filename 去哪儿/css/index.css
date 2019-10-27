@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-color: gray;
+}
+body{
+	min-width: 320px;
+	max-width: 750px;
+	background-color: white;
+	margin: 0 auto;
+}
+header{width: 100%;}
+header img{
+	vertical-align: bottom;
+}
+.main{
+	width: 100%;
+	
+}
+.main .section{
+	width: 100%;
+	display: flex;
+	height: 100px;
+	background-color: red;
+	margin-top: 10px;
+}
+.section:nth-child(2){
+	background-color: dodgerblue;
+}
+.section:nth-child(3){
+	background-color: lawngreen;
+}
+.main .section .left{
+	flex: 1;
+	color: white;
+	text-align: center;
+}
+.main .section .left p{
+	margin: 15px 0;
+}
+.main .section .left img{
+	width: 32px;
+	height: 46px;
+}
+.main .section .right{
+	flex: 2;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section .right a{
+	width: 50%;
+	box-sizing: border-box;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 50px;
+}
+.section .right a:nth-last-of-type(-n+2){
+	border-bottom: 0;
+}
+.extra{
+	width: 100%;
+	display: flex;
+	background-color: #ff9900;
+}
+.extra{
+	width: 100%;
+	display: flex;
+	margin:10px auto;
+}
+.extra a{
+	flex: 1;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+}
+.extra a:nth-child(2){
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.nav{
+	width: 100%;
+	background-color: gray;
+	padding: 10px 0;
+}
+.nav ul{
+	width: 100%;
+	list-style: none;
+	background-color: white;
+	display: flex;
+}
+.nav ul>li{
+	text-align: center;
+	flex: 1;
+	box-sizing: border-box;
+	height: 70px;
+	margin-top: 20px;
+}
+.nav ul>li>i{
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	background:url(../img/icons.png) no-repeat -44px -20px;
+}
+.nav ul>li:nth-child(2) i{
+	background:url(../img/icons.png) no-repeat -128px -20px;
+}
+.nav ul>li:nth-child(3) i{
+	background:url(../img/icons.png) no-repeat -218px -20px;
+}
+.nav ul>li:nth-child(4) i{
+	background:url(../img/icons.png) no-repeat -302px -20px;
+}
+.guide{
+	width: 100%;
+	background-color: white;
+}
+.guide ul{
+	width: 100%;
+	list-style: none;
+	display: flex;
+}
+.guide ul li{
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+.guide ul li i{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border: 1px solid black;
+	border-radius: 50%;
+	
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 700;
+	background-color: darkgray;
+}
