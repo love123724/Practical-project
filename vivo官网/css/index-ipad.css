@@ -1,0 +1,47 @@
+.header-bottom{
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.header-bottom .nav1{
+	display: none;
+}
+.header-bottom .nav2{
+	display: block;
+}
+.main .main-top .product i{
+	display: block;
+	width: 200px;
+	height: 30px;
+}
+.main .main-top i:first-child{
+	background: url(../img/vivo-banner-title1-mini.png) no-repeat;
+}
+.main .main-top i:first-child+i{
+	background: url(../img/vivo-banner-title2-mini.png) no-repeat;
+}
+.main .main-top i:first-child+i+i{
+	background: url(../img/vivo-banner-title3-mini.png) no-repeat;
+}
+.main .main-top .product p{
+	margin-top: 40px;
+	text-align: center
+}
+.main-bottom{
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main-bottom>div{
+	flex: none;
+	width: 49.7%;
+	margin-top: 5px;
+}
+.footer-in{
+	width: 100%;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+.footer-in .footer-bottom .left{
+	width:auto;
+	display: inline-block;
+}
