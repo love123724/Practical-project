@@ -1,0 +1,4 @@
+/*ie9及以下*/
+.header-in .right li{
+	min-width: 0;
+}
